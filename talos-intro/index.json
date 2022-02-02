@@ -1,0 +1,51 @@
+{
+  "title": "An Intro to Talos Linux",
+  "description": "This guide will teach you the basics of Talos Linux. Create a new cluster and talk to it with the talosctl CLI!",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare Environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a Talos Cluster",
+        "text": "step2.md"
+      },
+      {
+        "title": "The 'talosconfig' File and the Talos Linux API",
+        "text": "step3.md"
+      },
+      {
+        "title": "Exploring `talosctl`",
+        "text": "step4.md"
+      },
+      {
+        "title": "Orchestrating Upgrades",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "prereqs.sh",
+          "target": "/root/",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
