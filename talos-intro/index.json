@@ -1,5 +1,5 @@
 {
-  "title": "An Intro to Talos Linux",
+  "title": "An Intro to Talos Linux from Sidero Labs",
   "description": "This guide will teach you the basics of Talos Linux. Create a new cluster and talk to it with the talosctl CLI!",
   "difficulty": "Beginner",
   "time": "10",
